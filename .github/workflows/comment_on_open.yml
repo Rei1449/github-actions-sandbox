@@ -1,7 +1,7 @@
-name: Comment
+name: Trigger ready for review upon Comment
 on: 
   pull_request:
-    types: [opened]
+    types: [ready_for_review]
 jobs:
   comment:
     runs-on: ubuntu-latest
